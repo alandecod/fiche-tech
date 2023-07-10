@@ -40,7 +40,7 @@
                     <th>immatriculation</th>
                     <th>kilometre</th>
                     <th>mecanicien</th>
-                    <th>tarveaux effectuer</th>
+                    <th>travaux effectuer</th>
                 </tr>
                 <tr>
                     <td><?php echo $table["date"];?></td>
