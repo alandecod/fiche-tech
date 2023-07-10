@@ -20,11 +20,7 @@
         </head>
         <body>
 
-         <form method="POST" action="">
-            <label for="recherche">rechercher une voiture :</label>
-            <input type="search" name="recherche" id="recherche">
-            <input type="submit" name="validrecherche" value="valider">
-        </form>
+        
         <?php
         $basededonne= new PDO("mysql:host=$host;dbname=$dbname","$user","$passw");
 
