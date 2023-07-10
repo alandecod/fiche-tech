@@ -7,7 +7,7 @@
     $basededonne= new PDO("mysql:host=$host;dbname=$dbname","$user","$passw");
 ?> 
 <?php
-$supprimer = "DELETE FROM voitures WHERE immatriculation = immatriculation ";
+$supprimer = "DELETE FROM voitures WHERE immatriculation = $immatriculation ";
 
 $basededonne->query($supprimer);
 ?>
